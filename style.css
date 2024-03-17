@@ -390,3 +390,17 @@ h1 {
         width: 20px;
     }
 }
+@media screen and (max-width: 380px){
+
+    .txt-animation {
+        font-size: 15px!important;
+    }
+    
+} 
+@media screen and (max-width: 350px){
+
+    .txt-animation {
+        font-size: 12px!important;
+    }
+    
+} 
