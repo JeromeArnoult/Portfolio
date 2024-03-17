@@ -39,7 +39,7 @@ const txtAnim = document.querySelector('.txt-animation');
   .typeString('<span style="color: yellow;"> PhP</span> !')
   .pauseFor(1000)
   .deleteChars(5)
-  .typeString('<span style="color: red;"> Symfony</span> !')
+  .typeString('<span style="color: lightgrey;"> Symfony</span> !')
   .pauseFor(1000)
   .deleteChars(12)
   .typeString('<span style="color: lightgreen;"> JavaScript </span> !')
