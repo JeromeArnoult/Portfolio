@@ -48,4 +48,6 @@ const txtAnim = document.querySelector('.txt-animation');
   .typeString('<span style="color: #ff6910;"> Angular</span> !')
   .deleteChars(12)
   .typeString('<span style="color: lightblue;"> Java </span> !')
+  .deleteChars(7)
+  .typeString('<span style="color: lightblue;"> Web </span> !')
   .start()

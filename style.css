@@ -195,7 +195,7 @@ body {
 }
 h1 {
     font-size: 90px;
-    font-family: 'Abril Fatface', sans-serif;
+    font-family: 'Londrina Solid', sans-serif;
     margin: 0 60px;
     padding-top: 300px;
     color: #f1f1f1;
@@ -226,6 +226,12 @@ h1 {
     border: 2px solid #f1f1f1;
     color: #f1f1f1;
     font-weight: 700;
+}
+.btnacc1:hover {
+    box-shadow: 0 0 10px #f1f1f1 ;
+}
+.btnacc2:hover {
+    box-shadow: 0 0 10px #376fb8 ;
 }
 .medias {
     display: flex;
@@ -263,7 +269,7 @@ h1 {
     cursor: pointer;
     box-shadow: 0 0 0 0 #f1f1f1;
     background: #376fb8;
-    animation: pulse 0.5s infinite;
+    animation: pulse 0.7s infinite;
 }
 @keyframes pulse {
     to {
@@ -329,6 +335,9 @@ h1 {
     h1 {
         font-size: 50px;
         margin: 0 30px;
+    }
+    .nav-gauche {
+        width: 200px;
     }
     .accueil p {
         font-size: 20px;
@@ -610,26 +619,15 @@ h1 {
     border-radius: 3px;
     cursor: pointer;
     position: relative;
-    overflow: hidden;
+   
 }
 
-.btn-projets::after {
-    content: '';
-    height: 240px;
-    width: 100px;
-    background: rgba(255,255,255,0.4);
-    display: block;
-    position: absolute;
-    left: -150px;
-    top: -50px;
-    transform: rotate(-45deg);
-}
-.btn-projets:hover::after {
-    transition: transform 0.3s 0.1s linear;
-    transform: translateX(400px);
+
+.btn-projets:hover {
+    box-shadow: 0 0 10px #376fb8;
 }
 
-/* Media Query pour la portfolio */
+/* Media Query pour la section  portfolio */
 
 @media screen and (max-width: 1300px){
 
