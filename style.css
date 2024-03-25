@@ -240,6 +240,7 @@ h1 {
 }
 .btnacc1:hover {
     box-shadow: 0 0 10px #f1f1f1 ;
+    color: #f1f1f1;
 }
 .btnacc2:hover {
     box-shadow: 0 0 10px #376fb8 ;
