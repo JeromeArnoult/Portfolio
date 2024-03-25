@@ -944,3 +944,176 @@ h1 {
     
     
 }
+/* -------- Parallax ------- */
+.section-parallax {
+    width: 100%;
+    height: 250px;
+    background: url(ressources/AccuilSombre.jpg) no-repeat right / cover fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt-par {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 50px;
+    color:#f1f1f1;
+}
+.txt-par:nth-child(1) {
+    padding-left: 300px;
+}
+@media screen and (max-width: 1300px) {
+    .txt-par {
+        font-size: 25px;
+        margin : 0 30px; 
+    }
+    .txt-par:nth-child(1) {
+        padding-left: 0px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .txt-par {
+        font-size: 22px;
+        margin: 0 25px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .section-parallax {
+        flex-direction: column;
+    }
+    .txt-par {
+        font-size:  20px;
+        margin: 20px 0px;
+    }
+}
+
+/* ----- Contact------- */
+
+.section-contact {
+    width: 100%;
+    height: auto;
+}
+.section-contact h2 {
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    padding: 70px 0 0 300px;
+}
+.section-contact h2 strong {
+    font-weight: 900;
+}
+.container-form {
+    margin: 0 auto;
+    width: 70%;
+    padding-left: 300px;
+
+}
+.form-groupe {
+    position:relative;
+    display: flex;
+    margin-bottom: 45px;
+}
+.form-groupe label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #aaa;
+    font-size: 20px;
+    transition: 0.4s ease-out;
+
+}
+.form-groupe input {
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 3px solid #aaa;
+    color: #666;
+    font-size: 20px;
+    transition: 0.4s ease-out;
+
+}
+textarea {
+    width: 100%;
+    height: 200px;
+    border: none;
+    border: 3px solid #aaa;
+    border-radius: 3px;
+    padding: 5px;
+    resize: none;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s all ease-out;
+    background: #f1f1f1;
+}
+textarea::placeholder {
+    font-size: 20px;
+    opacity: 0.5;
+}
+textarea:focus {
+    border-color: #8b97d7;
+}
+.form-groupe:nth-child(4) {
+    margin-bottom: 25px;
+    justify-content: flex-start;
+}
+.form-groupe .button-sub {
+    display: block;
+    width: auto;
+    padding: 15px 60px;
+    border: 3px solid rgb(144, 144, 144);
+    border-radius: 999px;
+    background-image: linear-gradient(to right, transparent 50%, rgb(65,65,65) 50%, rgb(134,134,134));
+    background-size: 200%;
+    color: #f1f1f1;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.form-groupe .button-sub:hover {
+    color: #fff;
+    background-position: 100%;
+    border: 3px solid #fff;
+}
+@media screen and (max-width:1300px) {
+    .section-contact h2 {
+        padding: 70px 0 0 0;
+    }
+    .container-form {
+        padding-left: 0;
+    }
+    .form-groupe:nth-child(4) {
+        justify-content: center;
+    }
+}
+
+/* ----- Animation Contact------- */
+
+.form-groupe:focus-within label, 
+.form-groupe.animation label {
+    top: 0px;
+    transform: translateY(-100%);
+    color: #8b97d7;
+
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 300px;
+    color: #f1f1f1;
+    font-weight: 700;
+}
+@media screen and (max-width: 1300px) {
+    footer {
+        padding-left: 0px;
+    }
+}
