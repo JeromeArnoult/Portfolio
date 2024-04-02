@@ -11,7 +11,6 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     background: #f1f1f1;
-    /* background-image: linear-gradient(to right, #29323c, #376fb8 ); */
     background-image: linear-gradient(41deg, rgba(107, 107, 107, 0.04) 0%, rgba(107, 107, 107, 0.04) 8%,rgba(31, 31, 31, 0.04) 8%, rgba(31, 31, 31, 0.04) 100%),linear-gradient(9deg, rgba(228, 228, 228, 0.04) 0%, rgba(228, 228, 228, 0.04) 62%,rgba(54, 54, 54, 0.04) 62%, rgba(54, 54, 54, 0.04) 100%),linear-gradient(124deg, rgba(18, 18, 18, 0.04) 0%, rgba(18, 18, 18, 0.04) 37%,rgba(233, 233, 233, 0.04) 37%, rgba(233, 233, 233, 0.04) 100%),linear-gradient(253deg, rgba(201, 201, 201, 0.04) 0%, rgba(201, 201, 201, 0.04) 55%,rgba(47, 47, 47, 0.04) 55%, rgba(47, 47, 47, 0.04) 100%),linear-gradient(270deg, rgba(172, 172, 172, 0.04) 0%, rgba(172, 172, 172, 0.04) 33%,rgba(26, 26, 26, 0.04) 33%, rgba(26, 26, 26, 0.04) 100%),linear-gradient(64deg, rgba(11, 11, 11, 0.04) 0%, rgba(11, 11, 11, 0.04) 38%,rgba(87, 87, 87, 0.04) 38%, rgba(87, 87, 87, 0.04) 100%),linear-gradient(347deg, rgba(199, 199, 199, 0.04) 0%, rgba(199, 199, 199, 0.04) 69%,rgba(4, 4, 4, 0.04) 69%, rgba(4, 4, 4, 0.04) 100%),linear-gradient(313deg, rgba(36, 36, 36, 0.04) 0%, rgba(36, 36, 36, 0.04) 20%,rgba(91, 91, 91, 0.04) 20%, rgba(91, 91, 91, 0.04) 100%),linear-gradient(90deg, rgb(3,5,23),rgb(27,107,159));
 }
 a {
@@ -21,7 +20,7 @@ a {
 a:hover{
     color: #376fb8;
 }
-/* ------------------------------------ Navigation ---------------------------------------- */
+/* --------------------------------------------------------------------- Navigation --------------------------------------------- */
 .nav-gauche {
     width: 300px;
     height: 100vh;
@@ -187,7 +186,7 @@ a:hover{
         transition: bottom 300ms ease, transform 300ms 300ms ease;
     }
 }
-/* ------- Accueil-------------- */
+/* ----------------------------------------------------------- Accueil--------------------------------------------------------- */
 
 .accueil {
     background: url(ressources/AccuilSombre2.avif);
@@ -430,26 +429,21 @@ h1 {
     }
     
 } 
-/* ------------------Présentation-------------------- */
+/* --------------------------------------------------------Présentation---------------------------------------------------------- */
 .presentation {
     width:100%;
     position: relative;
     overflow: hidden;
-    /* border-top: 1px dashed #333;
-    border-bottom: 1px dashed #333; */
     color: #e7e7e7;
 }
 .fond-forme {
-    /* background: #485563;
-    background-image: linear-gradient(to right, #29323c, #376fb8 ); */
     width: 2300px;
     height: 1000px;
     position: absolute;
-    /* transform: rotate(-45deg) translate(100px) translate(-15px); */
     z-index: -1;
 }
 .titre-pres {
-    /* font-family: 'Londrina Solid', sans-serif; */
+    
     font-size: 40px;
     text-align: center;
     margin:70px 0 70px 0;
@@ -568,7 +562,7 @@ h1 {
     }
  }
 
- /* ------------- Portfolio ------------ */
+ /* -------------------------------------------------------------- Portfolio ----------------------------------------------------- */
 
  .portfolio {
     width: 100%;
@@ -670,7 +664,7 @@ h1 {
     }
   }
 
-  /*------------ Section compétences--------------- */
+  /*------------------------------------------------- Section compétences ------------------------------------------------- */
 
 
   .section-range{
@@ -681,8 +675,6 @@ h1 {
     align-items: center;
     flex-direction: column;
     padding-bottom: 200px;
-    /* background: #485563;
-    background-image: linear-gradient(to left, #29323c, #376fb8 ); */
     color: #f1f1f1;
     position: relative;
     z-index: -1;
@@ -692,7 +684,6 @@ h1 {
   }
 
   .titre-exp {
-    /* font-family: 'Londrina Solid', sans-serif; */
     font-size: 40px;
     text-align: center;
     margin: 80px 0 90px 0;
@@ -805,7 +796,7 @@ h1 {
     }
 }
 
-/* ---------------- Expériences --------------------- */
+/* ------------------------------------------------------ Expériences ---------------------------------------------------- */
 
 .travail-exp {
     width: calc(100% - 300px);
@@ -839,7 +830,6 @@ h1 {
 .boule-ico {
     width: 50px;
     height: 50px;
-    /* border-radius: 50%; */
     border: 1px solid #333;
     background: #f1f1f1;
     display: flex;
@@ -878,31 +868,14 @@ h1 {
 .contenu-bloc:hover {
     transform: translate(0,0);
 }
-.bloc1 {
+.bloc1, .bloc2, .bloc3, .bloc4, .bloc5, .bloc6, .bloc7 {
     background: #a6daef;
 }
-.bloc2 {
-    background: #a6daef;
-}
-.bloc3 {
-    background: #a6daef;
-}
-.bloc4 {
-    background: #a6daef;
-}
-.bloc5 {
-    background: #a6daef;
-}
-.bloc6 {
-    background: #a6daef;
-}
-.bloc7 {
-    background: #a6daef;
-}
+
 .titre-section-bloc {
     font-weight: 600;
 }
-/* -------- Media expériences pro ------ */
+/* - Media expériences pro - */
 
 @media screen and (max-width: 1300px) {
     .travail-exp {
@@ -945,7 +918,7 @@ h1 {
     
     
 }
-/* -------- Parallax ------- */
+/* ---------------------------------------------------- Parallax ------------------------------------------------------- */
 .section-parallax {
     width: 100%;
     height: 250px;
@@ -988,8 +961,11 @@ h1 {
     }
 }
 
-/* ----- Contact------- */
+/* ----------------------------------------------------- Contact---------------------------------------------------------------- */
 
+h2 span {
+    font-weight: bold;
+}
 .section-contact {
     width: 100%;
     height: auto;
@@ -1024,7 +1000,6 @@ h1 {
     color: #aaa;
     font-size: 20px;
     transition: 0.4s ease-out;
-
 }
 .form-groupe input {
     display: block;
@@ -1037,7 +1012,6 @@ h1 {
     color: #666;
     font-size: 20px;
     transition: 0.4s ease-out;
-
 }
 textarea {
     width: 100%;

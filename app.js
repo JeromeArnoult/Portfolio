@@ -1,8 +1,10 @@
+
 const btnMenu = document.querySelector('.btn-rond-menu');
 const nav = document.querySelector('.nav-gauche');
 const allItemNav = document.querySelectorAll('.nav-menu-item');
 const ligne = document.querySelector('.cont-ligne');
 
+// Gestion menu
 btnMenu.addEventListener('click',() => {
     ligne.classList.toggle('active')
     nav.classList.toggle('menu-visible')
@@ -52,7 +54,7 @@ const txtAnim = document.querySelector('.txt-animation');
   .typeString('<span style="color: lightblue;"> Web </span> !')
   .start()
 
-  // Contact
+  // Animation des labels section contact
 
   const input_fields = document.querySelectorAll('input');
 
