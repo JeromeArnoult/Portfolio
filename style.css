@@ -1,4 +1,4 @@
-/* Reset CSS, les pseudos éléments before et after sont ajoutés au selecteur universel * car ils ne sont pas pris e compte */
+/* Reset CSS, les pseudos éléments before et after sont ajoutés au selecteur universel * car ils ne sont pas pris en compte par l'"*" */
 *, ::before, ::after {
     box-sizing: border-box;
     margin: 0;
@@ -21,7 +21,7 @@ a {
 a:hover{
     color: #376fb8;
 }
-/* ----------- Nav--------------- */
+/* ------------------------------------ Navigation ---------------------------------------- */
 .nav-gauche {
     width: 300px;
     height: 100vh;
