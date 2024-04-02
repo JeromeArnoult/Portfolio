@@ -28,7 +28,7 @@ const txtAnim = document.querySelector('.txt-animation');
   typewriter 
   .pauseFor(1800)
   .changeDelay(20)
-  .typeString('Moi c\'est Jérôme')
+  .typeString('Moi c\'est Jérôme Arnoult')
   .pauseFor(300)
   .typeString('<strong>, Développeur Web </strong> !')
   .pauseFor(1000)
