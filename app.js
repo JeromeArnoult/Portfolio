@@ -1,31 +1,35 @@
+/*TODO : Ajouter la barre de progression au scroll */
 
+/*TODO : Apparation progressive des éléments au démarrage */
+
+/*-------------------------------Déclaration des constantes---------------------------------------------------------*/
 const btnMenu = document.querySelector('.btn-rond-menu');
 const nav = document.querySelector('.nav-gauche');
 const allItemNav = document.querySelectorAll('.nav-menu-item');
 const ligne = document.querySelector('.cont-ligne');
 
-// Gestion menu
+/* Gestion menu*/
 btnMenu.addEventListener('click',() => {
-    ligne.classList.toggle('active')
-    nav.classList.toggle('menu-visible')
+    ligne.classList.toggle('active');
+    nav.classList.toggle('menu-visible');
 });
-
+/*Pour que les "items" du menu ferme la nav au click */
 if(window.matchMedia('(max-width: 1300px')) {
     allItemNav.forEach(item=>{
         item.addEventListener('click',()=>{
-            nav.classList.toggle('menu-visible')
+            nav.classList.toggle('menu-visible');
             ligne.classList.toggle('active');
-        })
-    })
-}
-// Type Writer : 
+        });
+    });
+};
+/*----------------------- Type Writer  -----------------------------------*/ 
 
 const txtAnim = document.querySelector('.txt-animation');
 
   let typewriter = new Typewriter(txtAnim,  {
     loop: false,
     deleteSpeed: 20
-  })
+  });
 
   typewriter 
   .pauseFor(1800)
@@ -52,9 +56,9 @@ const txtAnim = document.querySelector('.txt-animation');
   .typeString('<span style="color: lightblue;"> Java </span> !')
   .deleteChars(7)
   .typeString('<span style="color: lightblue;"> Web </span> !')
-  .start()
+  .start();
 
-  // Animation des labels section contact
+  /*----------------------------- Animation des labels section contact-------------------------------------------*/
 
   const input_fields = document.querySelectorAll('input');
 
@@ -62,9 +66,9 @@ const txtAnim = document.querySelector('.txt-animation');
     let field = input_fields[i];
     field.addEventListener('input', (e) => {
         if(e.target.value !== '') {
-            e.target.parentNode.classList.add('animation')
+            e.target.parentNode.classList.add('animation');
         } else if (e.target.value == '') {
-            e.target.parentNode.classList.remove('animation')
-        }
-    })
-  }
+            e.target.parentNode.classList.remove('animation');
+        };
+    });
+  };
