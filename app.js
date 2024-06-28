@@ -72,3 +72,32 @@ const txtAnim = document.querySelector('.txt-animation');
         };
     });
   };
+
+  document.addEventListener("DOMContentLoaded", function() {
+    // Récupérer l'élément modal
+    let modal = document.getElementById("modal");
+
+    // Récupérer l'élément modal-image
+    let modalImg = document.getElementById("img-agrandie");
+    let captionText = document.getElementById("caption");
+
+    // Récupérer toutes les images cliquables
+    let images = document.querySelectorAll(".cont-img-port img");
+
+    // Ajouter un écouteur d'événements pour chaque image
+    images.forEach(function(img) {
+        img.onclick = function() {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+    });
+
+    // Récupérer l'élément <span> qui ferme le modal
+    let span = document.getElementsByClassName("close")[0];
+
+    // Ajouter un écouteur d'événements pour fermer le modal lors du clic sur <span>
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+});
