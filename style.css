@@ -691,7 +691,7 @@ h1 {
   }
   .grille-skill {
     display: grid;
-    grid-template: repeat(3, 80px) / repeat(2, 500px);
+    grid-template: repeat(4, 80px) / repeat(2, 500px);
     grid-gap: 50px;
     padding-left: 300px;
   }
@@ -714,25 +714,35 @@ h1 {
     border-radius: 5px;
 }
 .b1 {
-    width: 60%;
+    width: 70%;
 }
 .b2 {
     width: 90%;
     background: rgb(243,237,146);
 }
 .b3 {
-    width: 70%;
+    width: 60%;
     background: rgb(243,237,146);
 }
 .b4 {
-    width: 60%;
+    width: 75%;
 }
 .b5 {
     width: 70%;
+    
 }
 .b6 {
-    width: 60%;
+    width: 75%;
     background: rgb(243,237,146);
+    
+}
+.b7 {
+    width: 75%;
+    background: rgb(243,237,146);
+}
+.b8 {
+    width: 75%;
+    
 }
 .label-skill {
     font-size: 24px;
@@ -838,6 +848,9 @@ h1 {
 }
 .boule-ico img {
     width: 50px;
+}
+.boule-ico:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .flex-cont-bloc-exp {
