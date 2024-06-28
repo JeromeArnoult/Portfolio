@@ -1,19 +1,30 @@
-/*TODO : Ajouter la barre de progression au scroll */
 
-/*TODO : Apparation progressive des éléments au démarrage */
-
-/*-------------------------------Déclaration des constantes---------------------------------------------------------*/
 const btnMenu = document.querySelector('.btn-rond-menu');
 const nav = document.querySelector('.nav-gauche');
 const allItemNav = document.querySelectorAll('.nav-menu-item');
 const ligne = document.querySelector('.cont-ligne');
 
-/* Gestion menu*/
+/* ---------------- Barre de progression ------------------------------------------*/
+
+window.addEventListener('scroll', updateProgressBar);
+
+function updateProgressBar() {
+    let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    let scrollHeight = document.documentElement.scrollHeight || document.body.scrollHeight;
+    let clientHeight = document.documentElement.clientHeight || window.innerHeight;
+    let scrollPercent = (scrollTop / (scrollHeight - clientHeight)) * 100;
+    
+    let progressBar = document.getElementById('progress-bar');
+    progressBar.style.width = scrollPercent + '%';
+}
+
+
+/*--------------------- Gestion menu------------------------------------------*/
 btnMenu.addEventListener('click',() => {
     ligne.classList.toggle('active');
     nav.classList.toggle('menu-visible');
 });
-/*Pour que les "items" du menu ferme la nav au click */
+//Pour que les "items" du menu ferme la nav au click
 if(window.matchMedia('(max-width: 1300px')) {
     allItemNav.forEach(item=>{
         item.addEventListener('click',()=>{
@@ -22,7 +33,8 @@ if(window.matchMedia('(max-width: 1300px')) {
         });
     });
 };
-/*----------------------- Type Writer  -----------------------------------*/ 
+
+/*----------------------- Type Writer  Section présentation-----------------------*/ 
 
 const txtAnim = document.querySelector('.txt-animation');
 
@@ -58,7 +70,7 @@ const txtAnim = document.querySelector('.txt-animation');
   .typeString('<span style="color: lightblue;"> Web </span> !')
   .start();
 
-  /*----------------------------- Animation des labels section contact-------------------------------------------*/
+  /*------------- Animation des labels section contact------------------------------*/
 
   const input_fields = document.querySelectorAll('input');
 
@@ -73,6 +85,7 @@ const txtAnim = document.querySelector('.txt-animation');
     });
   };
 
+  /* Fenêtre modale des image du portfolio */
   document.addEventListener("DOMContentLoaded", function() {
     // Récupérer l'élément modal
     let modal = document.getElementById("modal");
