@@ -837,14 +837,18 @@ h1 {
     left: -30px;
 }
 .boule-ico {
-    width: 50px;
-    height: 50px;
-    border: 1px solid #333;
+    /* width: 50px;
+    height: 50px; */
+    /* border: 1px solid #333; */
     background: #f1f1f1;
     display: flex;
     justify-content: center;
     align-items: center;
 
+}
+.boule-ico a {
+    width: 50px;
+    height: 50px;
 }
 .boule-ico img {
     width: 50px;
