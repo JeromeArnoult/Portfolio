@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 
 /*  barre de progression */
@@ -19,7 +20,7 @@
 .progress-bar {
     height: 100%;
     width: 0;
-    background-color: rgba(15, 70, 165, 0.8);
+    background-color: rgba(82, 89, 103, 0.8);
 }
 
 html {
@@ -895,7 +896,7 @@ h1 {
     justify-content: center;
 }
 .barre-verticale {
-    height: 1715px;
+    height: 1950px;
     width: 5px;
     background: #f1f1f1;
     display: flex;
@@ -929,7 +930,7 @@ h1 {
 .flex-cont-bloc-exp {
     width: 800px;
     flex-shrink: 1;
-    height: 1000px;
+    height: 1200px;
     position: relative;
 }
 .bloc {

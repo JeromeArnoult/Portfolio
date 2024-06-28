@@ -85,8 +85,8 @@ const txtAnim = document.querySelector('.txt-animation');
     });
   };
 
-  /* Fenêtre modale des image du portfolio */
-  document.addEventListener("DOMContentLoaded", function() {
+    /* Fenêtre modale des image du portfolio */
+    document.addEventListener("DOMContentLoaded", function() {
     // Récupérer l'élément modal
     let modal = document.getElementById("modal");
 
