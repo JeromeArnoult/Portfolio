@@ -1003,6 +1003,9 @@ h2 span {
     padding-left: 300px;
 
 }
+.section-contact>h2>a {
+    color: #2c1958;
+}
 .form-groupe {
     position:relative;
     display: flex;
