@@ -1085,6 +1085,12 @@ textarea:focus {
         justify-content: center;
     }
 }
+@media screen and (max-width:585px) {
+    .section-contact h2 {
+        font-size: 25px;
+    
+}
+}
 
 /* ----- Animation Contact------- */
 
