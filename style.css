@@ -656,7 +656,9 @@ h1 {
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
+    cursor: pointer;
 }
+
  .item h3 {
     padding: 10px 10px 0;
     font-size: 22px;
