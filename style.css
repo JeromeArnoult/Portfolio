@@ -971,7 +971,7 @@ h1 {
 }
 @media screen and (max-width: 950px) {
     .barre-verticale {
-        height: 1850px;
+        height: 2100px;
     }
     .bloc {
         height: 220px;
@@ -993,7 +993,7 @@ h1 {
         height: 400px;
     }
     .barre-verticale {
-        height: 3110px;
+        height: 3550px;
     }
     
 }
