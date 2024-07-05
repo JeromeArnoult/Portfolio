@@ -114,3 +114,7 @@ const txtAnim = document.querySelector('.txt-animation');
         modal.style.display = "none";
     }
 });
+
+import { injectSpeedInsights } from '@vercel/speed-insights';
+
+injectSpeedInsights();
