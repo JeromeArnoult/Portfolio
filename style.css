@@ -5,7 +5,26 @@
     padding: 0;
     list-style-type: none;
 }
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'Londrina Solid';
+    src: url('../fonts/Londrina_Solid/LondrinaSolid-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Abril Fatface';
+    src: url('../fonts/Abril_Fatface/AbrilFatface-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 /*  barre de progression */
 .progress-container {
     position: fixed;
@@ -585,7 +604,6 @@ h1 {
     width: 100%;
  }
  .titre-port {
-    /* font-family: 'Londrina Solid', sans-serif; */
     text-align: center;
     padding: 50px 0;
     font-size: 50px;
@@ -884,7 +902,6 @@ h1 {
     padding-bottom: 100px;
 }
 .titre-travail-exp {
-    /* font-family: 'Londrina Solid', sans-serif; */
     text-align: center;
     margin: 70px 0;
     font-size: 40px;
