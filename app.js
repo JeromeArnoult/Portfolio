@@ -1,6 +1,4 @@
-import { injectSpeedInsights } from '@vercel/speed-insights';
 
-injectSpeedInsights();
 
 const btnMenu = document.querySelector('.btn-rond-menu');
 const nav = document.querySelector('.nav-gauche');
