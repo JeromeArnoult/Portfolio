@@ -1062,6 +1062,11 @@ h1 {
         margin: 20px 0px;
     }
 }
+@supports (-webkit-touch-callout: none) {
+    .section-parallax {
+        background-attachment: scroll; /* Désactiver l'effet fixed sur IOS mobile qui ne fonctionne pas*/
+    }
+}
 
 /* ------------------------------- Contact------------------------------------------- */
 
