@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jeromearnoult.vercel.app/sitemap.xml
