@@ -1003,7 +1003,7 @@ h1 {
 }
 @media screen and (max-width: 520px) {
     .txt-section {
-        font-size: 16px;
+        font-size: 14px;
     }
     .bloc {
         height: 400px;
@@ -1015,7 +1015,7 @@ h1 {
 }
 @media screen and (max-width: 380px) {
     .txt-section {
-        font-size: 12px;
+        font-size: 14px;
     }
     
     
