@@ -234,6 +234,11 @@ a:hover{
     margin-left: auto;
     position: relative;
 }
+.accueil p{
+    font-size: 30px;
+    margin: 10px 0 10px 60px;
+    color: #e7e7e7;
+}
 h1 {
     font-size: 90px;
     font-family: 'Londrina Solid', sans-serif;
