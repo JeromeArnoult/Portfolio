@@ -843,7 +843,7 @@ h1 {
 
 @media screen and (max-width: 1400px) {
     .grille-skill{
-        grid-template: repeat(3,80px) / repeat(2,450px);
+        grid-template: repeat(4,80px) / repeat(2,450px);
     }
     .barre-grises {
         width: 450px;
@@ -857,7 +857,7 @@ h1 {
     }
     
     .grille-skill {
-        grid-template: repeat(6,80px) / 600px;
+        grid-template: repeat(8,80px) / 600px;
         padding-left: 0;
     }
     .barre-grises {
@@ -869,7 +869,7 @@ h1 {
 @media screen and (max-width: 700px) {
 
     .grille-skill {
-        grid-template: repeat(6,80px) / 400px;
+        grid-template: repeat(8,80px) / 300px;
     }
     .barre-grises {
         width: 400px
@@ -889,7 +889,7 @@ h1 {
         font-size: 20px;
     }
     .grille-skill{
-        grid-template: repeat(6,80px) / 300px;
+        grid-template: repeat(8,80px) / 300px;
         grid-gap: 40px;
     }
     .barre-grises {
