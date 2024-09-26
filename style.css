@@ -1210,6 +1210,9 @@ footer {
     color: #f1f1f1;
     font-weight: 700;
 }
+.foot {
+    display: flex;
+}
 @media screen and (max-width: 1300px) {
     footer {
         padding-left: 0px;
